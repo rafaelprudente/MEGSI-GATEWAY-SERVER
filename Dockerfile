@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 bellsoft/liberica-openjre-debian:21
+FROM bellsoft/liberica-openjre-debian:21
 
 WORKDIR /opt
 
