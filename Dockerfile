@@ -2,7 +2,7 @@ FROM --platform=linux/arm64 bellsoft/liberica-openjre-debian:21
 
 WORKDIR /opt
 
-EXPOSE 8080
+EXPOSE 5080
 
 COPY target/*.jar /opt/app.jar
 
